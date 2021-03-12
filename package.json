@@ -1,0 +1,15 @@
+{
+  "name": "express-with-http2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MelkdeSousa/express-with-http2.git",
+  "author": "MelkdeSousa <melk.sousap@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "spdy": "^4.0.2"
+  }
+}
